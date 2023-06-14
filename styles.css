@@ -1,0 +1,150 @@
+html {
+	background-image: url(https://images.unsplash.com/photo-1563089145-599997674d42?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80);
+	font-family: "Trebuchet MS", Verdana, sans-serif;;
+	color: black;
+	font-size: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+body {
+	margin: 0 auto;
+	min-width: 768px;
+	max-width: 1024px;
+}
+
+.PAGE-1-REAL{
+    display: grid; 
+    grid-template-areas: 
+    "Heading"
+    
+    "Side-Heading"
+    "P-1"
+    "P-2"
+    "P-3"
+    "P-4"
+    "P-5"
+    "P-6"
+    "P-7"
+
+    "info";
+}
+.Heading > h1 {
+    text-align: center;
+    top: 140px;
+    right: 545px;
+    font-family: "CantabileSerif", cursive;
+    font-size: 40px;
+    letter-spacing: 0px;
+  font-weight: 600;
+  color: #0db2ee;
+  font-style: italic; 
+ 
+}
+.Side-Heading >  h3{
+   text-align: center;
+    top: 140px;
+    right: 545px;
+    color: #0db2ee;
+    font-family: "CantabileSerif", cursive;
+    font-weight: 600;
+    letter-spacing: 0px;
+    font-size: 40px;  
+    font-style: italic; 
+}
+
+
+.P-1 > h2 {
+    font-family: 'Lobster', cursive;
+    position: absolute;
+    top: 175px;
+    left:100px;
+    font-weight: 67;
+    letter-spacing: 1px;
+    font-size: 20px;
+    color:#B2DEDD;
+}
+.P-1 > h2:hover{
+    color:aqua;
+}
+
+.P-2 > h2 {
+    font-family: 'Lobster', cursive;
+    position: absolute;
+    top: 175px;
+    right:150px;
+    font-weight: 67;
+    letter-spacing: 1px;
+    font-size: 20px;
+    color:#B2DEDD;
+}
+.P-2 > h2:hover{
+    color:aqua;
+}
+.P-3 > h2 {
+    font-family: 'Lobster', cursive;
+    position: absolute;
+    top: 330px;
+    left:200px;
+    font-weight: 67;
+    letter-spacing: 1px;
+    font-size: 20px;
+    color:#B2DEDD;
+}
+.P-3 > h2:hover{
+    color:aqua;
+}
+.P-4 > h2 {
+    font-family: 'Lobster', cursive;
+    position: absolute;
+    top: 300px;
+    right:150px;
+    font-weight: 67;
+    letter-spacing: 1px;
+    font-size: 20px;
+    color:#B2DEDD;
+}
+.P-4 > h2:hover{
+    color:aqua;
+}
+.P-5 > h2 {
+    font-family: 'Lobster', cursive;
+    position: absolute;
+    top: 450px;
+    left:100px;
+    font-weight: 67;
+    letter-spacing: 1px;
+    font-size: 20px;
+    color:#B2DEDD;
+}
+.P-5 > h2:hover{
+    color:aqua;
+}
+.P-6 > h2 {
+    font-family: 'Lobster', cursive;
+    position: absolute;
+    top: 475px;
+    right:150px;
+    font-weight: 67;
+    letter-spacing: 1px;
+    font-size: 20px;
+    color:#B2DEDD;
+}
+.P-6 > h2:hover{
+    color:aqua;
+}
+
+.P-7 > h2 {
+    font-family: 'Lobster', cursive;
+    position: absolute;
+    top: 600px;
+    right: 500px;
+    font-weight: 67;
+    letter-spacing: 1px;
+    font-size: 20px;
+    color:#B2DEDD;
+}
+.P-7 > h2:hover{
+    color:aqua;
+}
